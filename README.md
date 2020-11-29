@@ -192,7 +192,7 @@ messages.
     }
    ```
 
-## Chat bot 
+## Chat bot (run in other terminal) 
 
  1. I have used the [huey](https://huey.readthedocs.io/en/latest/) as task queue lightweight alternative. 
  
@@ -206,10 +206,17 @@ messages.
     ``` 
     huey_consumer.py src.task.stock.huey
     ``` 
-## Front end
+## Front end (run in other terminal)
 
-
- 1. To run the frontend (requesit is setup a project on Firebase on GCP): 
+ 1. Clone this repo:
+ 
+    ``` 
+    git clone https://github.com/dedeco/simple-based-chat-frontend
+    ```
+       
+ 2. Replace the project config on main.js file on line 24  (setup a project on Firebase on GCP is needed)
+       
+ 3. To run the frontend : 
 
     ``` 
      dev_appserver.py app.yaml
