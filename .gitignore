@@ -1,0 +1,29 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit tests / coverage reports
+.pytest_cache/
+
+# pyenv
+.python-version
+
+# Environments
+venv/
+
+# MacOs
+.DS_Store
+
+#IDE
+.idea/
+
+#instance
+/instance/flask-dev.cfg
+/instance/flask-test.cfg
+/.blackbox/pubring.gpg~
+/.blackbox/pubring.kbx~
+/.blackbox/secring.gpg
+/.env
+/config-huey.json
