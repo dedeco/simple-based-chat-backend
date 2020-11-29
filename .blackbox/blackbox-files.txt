@@ -1,2 +1,3 @@
 .env
 config-huey.json
+instance/flask-dev.cfg
